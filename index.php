@@ -1,5 +1,5 @@
 <?php
-include_once('includes\header.php');
+include_once('includes/header.php');
 ?>
 	<title>Road to Purrdition</title>
 </head>
@@ -8,5 +8,5 @@ include_once('includes\header.php');
 
 
 <?php
-include_once('includes\footer.php');
+include_once('includes/footer.php');
 ?>
