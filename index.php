@@ -29,7 +29,6 @@ include_once('includes/header.php');
     </nav>
 
     <div class="container">
-
       <div class="starter-template">
         <h1>Road To Purrdition - Landing Page</h1>
         <p class="lead">This is the main landing page for Road To Purrdition. This page will host the current build of the <code>master</code> branch.</p>
