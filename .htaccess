@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteRule ^about/?$ about.php [NC]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule (.*) error.php?type=404 [L]
+
+ErrorDocument 403 /error.php?type=403
