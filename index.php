@@ -4,26 +4,12 @@ include_once('includes/header.php');
 ?>
 		<div class="jumbotron">
 			<div class="container">
-				<h1>Road To Purrdition - Landing Page</h1>
-				<p class="lead">This is the main landing page for Road To Purrdition. This page will host the current build of the <code>web-landing-page</code> branch.</p>
+				<h1>Road To Purrdition - Home</h1>
+				<p class="lead">Welcome to Road To Purrdition. Below is the current version of the game. If you are on one of the subdomains, then the below game may not be functional or even showing, if this is the case do not despair as the latest version that works can be located be clicking <a href="//roadtopurrdition.com">here</a>.
 			</div>
 		</div><!-- /.jumbotron -->
-		<div class = "container">
-			<script type="text/javascript">
-
-			    window.onload = function() {
-
-			        var game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create: create });
-
-			        function preload () {
-			            game.load.image('logo', '../resources/img/phaser.png');
-			        }
-			        function create () {
-			            var logo = game.add.sprite(game.world.centerX, game.world.centerY, 'logo');
-			            logo.anchor.setTo(0.5, 0.5);
-			        }
-			    };
-			    </script>
+		<div id="phaser-panel">
+			<script src="game.js" type="text/javascript"></script>
 		</div>
 
 <?php
