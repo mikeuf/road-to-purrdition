@@ -1,5 +1,6 @@
 <?php
 $title = "Road to Purrdition - Home";
+$active = "home";
 include_once('includes/header.php');
 ?>
 		<div class="jumbotron">
@@ -9,7 +10,7 @@ include_once('includes/header.php');
 			</div>
 		</div><!-- /.jumbotron -->
 		<div id="phaser-panel">
-			<script src="game.js" type="text/javascript"></script>
+			<script src="resources/javascript/game.js" type="text/javascript"></script>
 		</div>
 
 <?php
