@@ -9,9 +9,10 @@ if (!(isset($title))) {
 	<head>
 		<!--Stylesheets-->
 		<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
-		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
-		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-		<link href="../resources/css/phaser-styles.css" rel="stylesheet">
+		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" type='text/css'>
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type='text/css'>
+		<link href='../resources/css/phaser-styles.css' rel='stylesheet' type='text/css'>
+		<link hred='../resources/css/sticky-footer.css' rel-'stylesheet' type='text/css'>
 
 		<!--Javascript-->
 		<script src="../phaser/phaser.min.js"></script>
