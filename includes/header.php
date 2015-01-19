@@ -20,6 +20,7 @@ if (!(isset($title))) {
 		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type='text/css'>
 		<link href='../resources/css/phaser-styles.css' rel='stylesheet' type='text/css'>
 		<link href='../resources/css/sticky-footer.css' rel='stylesheet' type='text/css'>
+		<link href="../resources/css/prism.css" rel="stylesheet" type='text/css'>
 
 		<!--Javascript-->
 		<script src="../phaser/phaser.min.js"></script>
