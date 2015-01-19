@@ -47,11 +47,21 @@ if (!(isset($title))) {
 				<div id="navbar" class="collapse navbar-collapse">
 					<ul class="nav navbar-nav">
 						<li class="active"><a href="http://roadtopurrdition.com">Home</a></li>
-						<li><a href="http://development.roadtopurrdition.com">Development</a></li>
-						<li><a href="http://caroline.roadtopurrdition.com">Caroline</a></li>
-						<li><a href="http://daniel.roadtopurrdition.com">Daniel</a></li>
-						<li><a href="http://jackie.roadtopurrdition.com">Jacqueline</a></li>
-						<li><a href="http://mike.roadtopurrdition.com">Mike</a></li>
+						<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Development Views<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li class="dropdown-header">Team Baselines</li>
+                <li><a href="http://roadtopurrdition.com">Master Branch</a></li>
+                <li><a href="http://development.roadtopurrdition.com">Development Branch</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Individual Development Views</li>
+								<li><a href="http://caroline.roadtopurrdition.com">Caroline</a></li>
+								<li><a href="http://daniel.roadtopurrdition.com">Daniel</a></li>
+								<li><a href="http://jackie.roadtopurrdition.com">Jacqueline</a></li>
+								<li><a href="http://mike.roadtopurrdition.com">Mike</a></li>
+              </ul>
+            </li>
+
 					</ul>
 				</div><!--/.nav-collapse -->
 			</div>
