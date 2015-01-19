@@ -31,7 +31,7 @@ include_once('includes/header.php');
 		<div class="jumbotron">
 			<div class="container">
 				<h1>Road To Purrdition - Landing Page</h1>
-				<p class="lead">This is the main landing page for Road To Purrdition. This page will host the current build of the <code>master</code> branch.</p>
+				<p class="lead">This is the main landing page for Road To Purrdition. This page will host the current build of the <code>development</code> branch.</p>
 			</div>
 
 		</div><!-- /.jumbotron -->
