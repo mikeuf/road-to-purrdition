@@ -7,6 +7,13 @@ if (!(isset($title))) {
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<!--Meta content-->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="Daniel McNaughton">
+
 		<!--Stylesheets-->
 		<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" type='text/css'>
@@ -23,13 +30,6 @@ if (!(isset($title))) {
 			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
-		<!--Meta content-->
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="">
-		<meta name="author" content="Daniel McNaughton">
-
 		<title><?php echo $title ?></title>
 	</head>
 	<body>
