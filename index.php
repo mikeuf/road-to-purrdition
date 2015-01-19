@@ -1,5 +1,6 @@
 <?php
 $title = "Road to Purrdition - Home";
+$active = "home";
 include_once('includes/header.php');
 ?>
 		<div class="jumbotron">

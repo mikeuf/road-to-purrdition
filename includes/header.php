@@ -47,7 +47,7 @@ if (!(isset($title))) {
 				</div>
 				<div id="navbar" class="collapse navbar-collapse">
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="http://roadtopurrdition.com">Home</a></li>
+						<li <?php if (($active == NUll) || ($active = "home")) { echo 'class="active"'; } ?>><a href="http://roadtopurrdition.com">Home</a></li>
 						<li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Development Views<span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
@@ -62,8 +62,8 @@ if (!(isset($title))) {
 								<li><a href="http://mike.roadtopurrdition.com">Mike</a></li>
               </ul>
             </li>
-            <li><a href="./about">About</a></li>
-            <li><a href="./code">Game Code</a></li>
+            <li <?php if (($active = "about") { echo 'class="active"'; } ?>><a href="./about">About</a></li>
+            <li <?php if (($active = "code") { echo 'class="active"'; } ?>><a href="./code">Game Code</a></li>
 
 					</ul>
 				</div><!--/.nav-collapse -->
