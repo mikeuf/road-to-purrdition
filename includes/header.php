@@ -63,6 +63,7 @@ if (!(isset($title))) {
               </ul>
             </li>
             <li><a href="./about">About</a></li>
+            <li><a href="./code">Game Code</a></li>
 
 					</ul>
 				</div><!--/.nav-collapse -->
