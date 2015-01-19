@@ -62,8 +62,8 @@ if (!(isset($title))) {
 								<li><a href="http://mike.roadtopurrdition.com">Mike</a></li>
               </ul>
             </li>
-            <li <?php if (($active = "about") { echo 'class="active"'; } ?>><a href="./about">About</a></li>
-            <li <?php if (($active = "code") { echo 'class="active"'; } ?>><a href="./code">Game Code</a></li>
+            <li <?php if ($active = "about") { echo 'class="active"'; } ?>><a href="./about">About</a></li>
+            <li <?php if ($active = "code") { echo 'class="active"'; } ?>><a href="./code">Game Code</a></li>
 
 					</ul>
 				</div><!--/.nav-collapse -->
