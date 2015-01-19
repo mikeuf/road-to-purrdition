@@ -1,7 +1,7 @@
 		<hr>
     <footer class="footer">
       <div class="container">
-     	  <p>&copy; Daniel McNaughton, Jacqueline Smith, Caroline Willis, and Michael Black 2014</p>
+     	  <p class="text-muted">&copy; Daniel McNaughton, Jacqueline Smith, Caroline Willis, and Michael Black 2014</p>
       </div>
     </footer>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
