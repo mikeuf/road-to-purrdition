@@ -61,7 +61,7 @@ if (!(isset($title))) {
 								<li><a href="http://mike.roadtopurrdition.com">Mike</a></li>
               </ul>
             </li>
-            <li><a href="http://roadtopurrdition.com/about">About</a></li>
+            <li><a href="./about">About</a></li>
 
 					</ul>
 				</div><!--/.nav-collapse -->
