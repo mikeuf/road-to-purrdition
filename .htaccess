@@ -1,6 +1,5 @@
 RewriteEngine On
-RewriteBase /
-RewriteRule ^about/?$ about.php [L, NC]
+RewriteRule about about.php [L, NC]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
