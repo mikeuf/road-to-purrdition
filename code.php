@@ -9,7 +9,8 @@ include_once('includes/header.php');
 			</div>
 		</div><!-- /.jumbotron -->
 		<div class="container">
-			<pre data-src="../resources/javascript/game.js"></pre>
+			<h2>game.js Source Code:
+			<pre class="line-numbers" data-src="../resources/javascript/game.js"></pre>
 		</div>
 <?php
 include_once('includes/footer.php');
