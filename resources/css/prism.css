@@ -122,6 +122,7 @@ pre.line-numbers {
 	position: relative;
 	padding-left: 3.8em;
 	counter-reset: linenumber;
+	padding-bottom: 30px;
 }
 
 pre.line-numbers > code {
