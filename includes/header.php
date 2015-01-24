@@ -43,7 +43,7 @@ if (!(isset($title))) {
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#">Road To Purrdition</a>
+					<a class="navbar-brand" href="/">Road To Purrdition</a>
 				</div>
 				<div id="navbar" class="collapse navbar-collapse">
 					<ul class="nav navbar-nav">
@@ -64,7 +64,6 @@ if (!(isset($title))) {
             </li>
             <li <?php if ($active == "about") { echo 'class="active"'; } ?>><a href="./about">About</a></li>
             <li <?php if ($active == "code") { echo 'class="active"'; } ?>><a href="./code">Game Code</a></li>
-
 					</ul>
 				</div><!--/.nav-collapse -->
 			</div>
