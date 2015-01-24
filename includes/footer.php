@@ -1,4 +1,3 @@
-		<hr>
     <footer class="footer">
       <div class="container">
      	  <p class="text-muted">&copy; Daniel McNaughton, Jacqueline Smith, Caroline Willis, and Michael Black 2014</p>

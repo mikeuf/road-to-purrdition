@@ -12,3 +12,4 @@ function preload () {
     game.load.image('logo', 'resources/img/phaser.png');
     game.load.script('webfont', '//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js');
 }
+

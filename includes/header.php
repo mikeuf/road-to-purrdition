@@ -18,9 +18,9 @@ if (!(isset($title))) {
 		<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" type='text/css'>
 		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type='text/css'>
-		<link href='../resources/css/phaser-styles.css' rel='stylesheet' type='text/css'>
-		<link href='../resources/css/sticky-footer.css' rel='stylesheet' type='text/css'>
-		<link href="../resources/css/prism.css" rel="stylesheet" type='text/css'>
+		<link href='./resources/css/phaser-styles.css' rel='stylesheet' type='text/css'>
+		<link href='./resources/css/sticky-footer.css' rel='stylesheet' type='text/css'>
+		<link href="./resources/css/prism.css" rel="stylesheet" type='text/css'>
 
 		<!--Javascript-->
 		<script src="../phaser/phaser.min.js"></script>
@@ -43,7 +43,7 @@ if (!(isset($title))) {
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#">Road To Purrdition</a>
+					<a class="navbar-brand" href="/">Road To Purrdition</a>
 				</div>
 				<div id="navbar" class="collapse navbar-collapse">
 					<ul class="nav navbar-nav">
@@ -64,7 +64,6 @@ if (!(isset($title))) {
             </li>
             <li <?php if ($active == "about") { echo 'class="active"'; } ?>><a href="./about">About</a></li>
             <li <?php if ($active == "code") { echo 'class="active"'; } ?>><a href="./code">Game Code</a></li>
-
 					</ul>
 				</div><!--/.nav-collapse -->
 			</div>
