@@ -55,7 +55,7 @@ game.add.sprite(0, 0, 'springBackground');
 
 
       // player = game.add.sprite(128, game.world.height - 150, 'manatee');
-      player = game.add.sprite(128, game.world.height - 50, 'walking');
+      player = game.add.sprite(204, game.world.height - 50, 'walking');
 
       game.physics.arcade.enable(player);
 
