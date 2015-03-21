@@ -1,5 +1,5 @@
 
- $(document).ready (function( ){ 
+/*  $(document).ready (function( ){ */
 
     var game = new Phaser.Game(1280, 800, Phaser.AUTO, 'phaser-panel', { preload: preload, create: create, update: update });
 
@@ -214,5 +214,5 @@ function changeVolume(pointer) {
     }
 */
 
-); 
+/* ); */
 
