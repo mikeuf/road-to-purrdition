@@ -5,9 +5,9 @@
 
     function preload() {
 
-    game.load.image('springBackground', 'assets/springBackground.png');
+    game.load.image('springBackground', 'assets/starfield.png');
     game.load.image('ground', 'assets/platform.png');
-    game.load.image('cabbage', 'assets/cabbage_50.png');
+    game.load.image('cabbage', 'assets/cabbage.png');
     game.load.spritesheet('manatee', 'assets/manatee_250.png', 250, 140);
 
     // load song
