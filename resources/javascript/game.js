@@ -1,7 +1,7 @@
 
 /*  $(document).ready (function( ){ */
 
-    var game = new Phaser.Game(1280, 800, Phaser.AUTO, 'phaser-panel', { preload: preload, create: create, update: update });
+    var game = new Phaser.Game(1024, 600, Phaser.AUTO, 'phaser-panel', { preload: preload, create: create, update: update });
 
     function preload() {
 
