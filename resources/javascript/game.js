@@ -9,6 +9,7 @@
     game.load.image('ground', 'assets/platform.png');
     game.load.image('cabbage', 'assets/cabbage.png');
     game.load.spritesheet('manatee', 'assets/manatee_250.png', 250, 140);
+    game.load.spritesheet('walking', 'assets/walking.png', 204, 116);
 
     // load song
 //    game.load.audio('aveMaria', 'assets/aveMaria.mp3');
@@ -53,7 +54,8 @@ game.add.sprite(0, 0, 'springBackground');
       platforms.enableBody = true;
 
 
-      player = game.add.sprite(128, game.world.height - 150, 'manatee');
+      // player = game.add.sprite(128, game.world.height - 150, 'manatee');
+      player = game.add.sprite(128, game.world.height - 50, 'walking');
 
       game.physics.arcade.enable(player);
 
