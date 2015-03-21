@@ -9,7 +9,8 @@
     game.load.image('ground', 'assets/platform.png');
     game.load.image('cabbage', 'assets/cabbage.png');
     game.load.spritesheet('manatee', 'assets/manatee_250.png', 250, 140);
-    game.load.spritesheet('walking', 'assets/walking.png', 200, 116);
+    game.load.spritesheet('walking', 'assets/test.png', 200, 116);
+    // game.load.spritesheet('walking', 'assets/walking.png', 200, 116);
 
     // load song
 //    game.load.audio('aveMaria', 'assets/aveMaria.mp3');
