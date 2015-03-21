@@ -199,7 +199,7 @@ if (remaining < 1)
 }
 
     }
-}
+/* } */
 
 /*
 function changeVolume(pointer) {
