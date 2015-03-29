@@ -10,10 +10,10 @@
 
 
     game.load.spritesheet('buttonPlayGame', 'assets/buttonPlayGame_72.png',161,58);
-    game.load.spritesheet('buttonInstructions', 'assets/buttonInstructions.png');
-    game.load.spritesheet('buttonIntroduction', 'assets/buttonIntroduction.png');
-    game.load.spritesheet('buttonSettings', 'assets/buttonSettings.png');
-    game.load.spritesheet('buttonCredits', 'assets/buttonCredits.png');
+    game.load.spritesheet('buttonInstructions', 'assets/buttonInstructions_72.png',167,58);
+    game.load.spritesheet('buttonIntroduction', 'assets/buttonIntroduction_72.png', 172,56);
+    game.load.spritesheet('buttonSettings', 'assets/buttonSettings_72.png',128,58);
+    game.load.spritesheet('buttonCredits', 'assets/buttonCredits_72.png',112,55);
         
     
     }
@@ -27,6 +27,7 @@ var buttonIntroduction;
 var buttonSettings;
 var buttonCredits;
 var background;
+var buttonText;
 var muteFlag = 0;
 var player;
 var platforms;
@@ -43,13 +44,14 @@ function create()
 
 
     game.stage.backgroundColor = '#fff';
+    buttonText = game.add.text(50, 50, 'Click a button', { fontSize: '64px', fill: '#000' });
 
     background = game.add.sprite(0, 0, 'mainMenuBackground');
-  buttonPlayGame = game.add.button(game.world.centerX - 50, 50, 'buttonPlayGame', actionOnClick, this, 1, 0);
-  buttonInstructions = game.add.button(game.world.centerX - 50, 110, 'buttonInstructions', actionOnClick, this, 1, 0);
-  buttonIntroduction = game.add.button(game.world.centerX - 50, 170, 'buttonIntroduction', actionOnClick, this, 1, 0);
-  buttonSettings = game.add.button(game.world.centerX - 50, 230, 'buttonSettings', actionOnClick, this, 1, 0);
-    buttonCredits = game.add.button(game.world.centerX - 50, 290, 'buttonCredits', actionOnClick, this, 1, 0);
+  buttonPlayGame = game.add.button(game.world.centerX - 50, 50, 'buttonPlayGame', actionButtonPlayGame, this, 1, 0);
+  buttonInstructions = game.add.button(game.world.centerX - 50, 110, 'buttonInstructions', actionButtonInstructions, this, 1, 0);
+  buttonIntroduction = game.add.button(game.world.centerX - 50, 170, 'buttonIntroduction', actionButtonIntroduction, this, 1, 0);
+  buttonSettings = game.add.button(game.world.centerX - 50, 230, 'buttonSettings', actionButtonSettings, this, 1, 0);
+    buttonCredits = game.add.button(game.world.centerX - 50, 290, 'buttonCredits', actionButtonCredits, this, 1, 0);
 
 
     buttonPlayGame.onInputOver.add(over, this);
@@ -57,25 +59,29 @@ function create()
     buttonPlayGame.onInputUp.add(up, this);
 
 
-
-function up() {
-    console.log('button up', arguments);
+function actionButtonPlayGame() 
+{
+  buttonText.text = "Play Game clicked"
 }
 
-function over() {
-    console.log('button over');
+function actionButtonInstructions() 
+{
+  buttonText.text = "Instructions clicked"
 }
 
-function out() {
-    console.log('button out');
+function actionButtonIntroduction() 
+{
+  buttonText.text = "Introduction clicked"
 }
 
-function actionOnClick () {
+function actionButtonSettings() 
+{
+  buttonText.text = "Settings clicked"
+}
 
-background = game.add.sprite(0, 0, 'springBackground');
-
-  //  background.visible =! background.visible;
-
+function actionButtonCredits() 
+{
+  buttonText.text = "Credits clicked"
 }
 
     } // end create()?
