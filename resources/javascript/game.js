@@ -9,7 +9,7 @@
     game.load.image('ground', 'assets/platform.png');
 
 
-    game.load.spritesheet('buttonPlayGame', 'assets/buttonPlayGame.png');
+    game.load.spritesheet('buttonPlayGame', 'assets/buttonPlayGame_72.png',161,58);
     game.load.spritesheet('buttonInstructions', 'assets/buttonInstructions.png');
     game.load.spritesheet('buttonIntroduction', 'assets/buttonIntroduction.png');
     game.load.spritesheet('buttonSettings', 'assets/buttonSettings.png');
@@ -45,17 +45,17 @@ function create()
     game.stage.backgroundColor = '#fff';
 
     background = game.add.sprite(0, 0, 'mainMenuBackground');
-  buttonPlayGame = game.add.button(game.world.centerX - 50, 50, 'buttonPlayGame', actionOnClick, this, 2, 1, 0);
-  buttonInstructions = game.add.button(game.world.centerX - 50, 110, 'buttonInstructions', actionOnClick, this, 2, 1, 0);
-  buttonIntroduction = game.add.button(game.world.centerX - 50, 170, 'buttonIntroduction', actionOnClick, this, 2, 1, 0);
-  buttonSettings = game.add.button(game.world.centerX - 50, 230, 'buttonSettings', actionOnClick, this, 2, 1, 0);
-    buttonCredits = game.add.button(game.world.centerX - 50, 290, 'buttonCredits', actionOnClick, this, 2, 1, 0);
+  buttonPlayGame = game.add.button(game.world.centerX - 50, 50, 'buttonPlayGame', actionOnClick, this, 1, 0);
+  buttonInstructions = game.add.button(game.world.centerX - 50, 110, 'buttonInstructions', actionOnClick, this, 1, 0);
+  buttonIntroduction = game.add.button(game.world.centerX - 50, 170, 'buttonIntroduction', actionOnClick, this, 1, 0);
+  buttonSettings = game.add.button(game.world.centerX - 50, 230, 'buttonSettings', actionOnClick, this, 1, 0);
+    buttonCredits = game.add.button(game.world.centerX - 50, 290, 'buttonCredits', actionOnClick, this, 1, 0);
 
-/*
-    button.onInputOver.add(over, this);
-    button.onInputOut.add(out, this);
-    button.onInputUp.add(up, this);
-*/
+
+    buttonPlayGame.onInputOver.add(over, this);
+    buttonPlayGame.onInputOut.add(out, this);
+    buttonPlayGame.onInputUp.add(up, this);
+
 
 
 function up() {
