@@ -8,23 +8,32 @@
 	game.load.image('mainMenuBackground','assets/title_screen.png');
     game.load.image('ground', 'assets/platform.png');
 
-        game.load.spritesheet('button', 'assets/button_sprite_sheet.png', 193, 71);
+
+    game.load.spritesheet('buttonPlayGame', 'assets/buttonPlayGame.png');
+    game.load.spritesheet('buttonInstructions', 'assets/buttonInstructions.png');
+    game.load.spritesheet('buttonIntroduction', 'assets/buttonIntroduction.png');
+    game.load.spritesheet('buttonSettings', 'assets/buttonSettings.png');
+    game.load.spritesheet('buttonCredits', 'assets/buttonCredits.png');
+        
     
     }
 
 
 // Global variables
 
-var button;
+var buttonPlayGame;
+var buttonInstructions;
+var buttonIntroduction;
+var buttonSettings;
+var buttonCredits;
 var background;
-    var muteFlag = 0;
-    var player;
-    var platforms;
-    var cursors;
-    var music;
-//var starfieldSprite;
-//var backgroundSprite;
-    var NUM_OF_CABBAGES = 12;
+var muteFlag = 0;
+var player;
+var platforms;
+var cursors;
+var music;
+
+var NUM_OF_CABBAGES = 12;
 
 var prevDate = new Date();
 var prevMs = prevDate.getMilliseconds();
@@ -36,13 +45,17 @@ function create()
     game.stage.backgroundColor = '#fff';
 
     background = game.add.sprite(0, 0, 'mainMenuBackground');
+  buttonPlayGame = game.add.button(game.world.centerX - 50, 50, 'buttonPlayGame', actionOnClick, this, 2, 1, 0);
+  buttonInstructions = game.add.button(game.world.centerX - 50, 110, 'buttonInstructions', actionOnClick, this, 2, 1, 0);
+  buttonIntroduction = game.add.button(game.world.centerX - 50, 170, 'buttonIntroduction', actionOnClick, this, 2, 1, 0);
+  buttonSettings = game.add.button(game.world.centerX - 50, 230, 'buttonSettings', actionOnClick, this, 2, 1, 0);
+    buttonCredits = game.add.button(game.world.centerX - 50, 290, 'buttonCredits', actionOnClick, this, 2, 1, 0);
 
-    button = game.add.button(game.world.centerX - 95, 400, 'button', actionOnClick, this, 2, 1, 0);
-
+/*
     button.onInputOver.add(over, this);
     button.onInputOut.add(out, this);
     button.onInputUp.add(up, this);
-
+*/
 
 
 function up() {
